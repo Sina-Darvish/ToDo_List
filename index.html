@@ -1,0 +1,48 @@
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo-List</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.fontcdn.ir/Font/Persian/Yekan/Yekan.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+
+  <body dir="rtl">
+    <div>
+      <div class="intro">
+        <h1>کارهای روزانه</h1>
+        <div class="border1"></div>
+      </div>
+    </div>
+
+    <div>
+      <p id="first">
+        کار های خود را داخل ورودی وارد کنید تا به لیست کارها اضافه شود
+      </p>
+      <p id="second">بعد از انجام هر کار روی آن کلیک کنید</p>
+      <p id="third">برای حذف آنها روی "X" کلیک کنید.</p>
+    </div>
+    <input
+      id="userInput"
+      type="text"
+      placeholder="آیتم جدید ..."
+      maxlength="27"
+    />
+    <button id="enter"><i class="fa fa-pencil"></i></button>
+
+    <!-- Empty List -->
+
+    <ul></ul>
+
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>
